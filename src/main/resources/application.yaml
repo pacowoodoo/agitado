@@ -11,3 +11,17 @@ spring:
     hibernate.ddl-auto: update
     generate-ddl: true
     show-sql: true
+  http:
+    log-request-details: false
+
+logging:
+  file: logs/dev_app.log
+  pattern:
+    console: "%d %-5level %logger : %msg%n"
+    file: "%d %-5level [%thread] %logger : %msg%n"
+  level:
+    root: INFO
+    org.springframework.web: INFO
+    guru.springframework.controllers: INFO
+    org.hibernate: INFO
+
