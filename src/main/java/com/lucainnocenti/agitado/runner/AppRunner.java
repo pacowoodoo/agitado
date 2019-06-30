@@ -15,7 +15,7 @@ import org.springframework.boot.ApplicationRunner;
 import org.springframework.stereotype.Component;
 
 @Component
-//@RequiredArgsConstructor
+@RequiredArgsConstructor
 public class AppRunner implements ApplicationRunner {
 
     @Autowired
@@ -25,7 +25,8 @@ public class AppRunner implements ApplicationRunner {
     public void run(ApplicationArguments args) throws Exception {
         Logger logger = LogManager.getLogger(AppRunner.class);
         logger.log(Level.DEBUG,"VIA!!!");
-        TadoConnector connector = new TadoConnector("me@lucainnocenti.com", "boiaboia");
+        System.out.println("Maremma cane");
+        /*TadoConnector connector = new TadoConnector("me@lucainnocenti.com", "boiaboia");
 
         for (TadoHome home : connector.getHomes()) {
             System.out.println(home.toString());
@@ -34,6 +35,6 @@ public class AppRunner implements ApplicationRunner {
                 System.out.println(zone.toString());
                 //System.out.println(zone.getZoneState(connector));
             }
-        }
+        } */
     }
 }
