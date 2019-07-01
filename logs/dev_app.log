@@ -58,3 +58,25 @@
 2019-06-30 17:33:49,675 INFO  [main] org.springframework.boot.web.embedded.netty.NettyWebServer : Netty started on port(s): 8080
 2019-06-30 17:33:49,681 INFO  [main] com.lucainnocenti.agitado.AgitadoApplication : Started AgitadoApplication in 3.641 seconds (JVM running for 10.726)
 2019-06-30 17:33:49,685 ERROR [main] com.lucainnocenti.agitado.service.LoggerService : class com.lucainnocenti.agitado.service.LoggerService :: Error altra VIA!!!
+2019-07-01 11:51:09,381 INFO  [main] com.lucainnocenti.agitado.AgitadoApplication : Starting AgitadoApplication on LAPTOP-H9JGAA04 with PID 4828 (started by Luca Innocenti in C:\Users\Luca Innocenti\Documents\java\personal\agitado)
+2019-07-01 11:51:09,387 INFO  [main] com.lucainnocenti.agitado.AgitadoApplication : No active profile set, falling back to default profiles: default
+2019-07-01 11:51:10,047 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-01 11:51:10,073 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13ms. Found 0 repository interfaces.
+2019-07-01 11:51:12,142 INFO  [main] org.springframework.boot.web.embedded.netty.NettyWebServer : Netty started on port(s): 8080
+2019-07-01 11:51:12,147 INFO  [main] com.lucainnocenti.agitado.AgitadoApplication : Started AgitadoApplication in 3.447 seconds (JVM running for 6.148)
+2019-07-01 11:51:12,150 ERROR [main] com.lucainnocenti.agitado.service.LoggerService : class com.lucainnocenti.agitado.service.LoggerService :: Error altra VIA!!!
+2019-07-01 12:20:56,258 INFO  [main] com.lucainnocenti.agitado.AgitadoApplication : Starting AgitadoApplication on LAPTOP-H9JGAA04 with PID 284 (started by Luca Innocenti in C:\Users\Luca Innocenti\Documents\java\personal\agitado)
+2019-07-01 12:20:56,261 INFO  [main] com.lucainnocenti.agitado.AgitadoApplication : No active profile set, falling back to default profiles: default
+2019-07-01 12:20:56,726 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-01 12:20:56,742 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9ms. Found 0 repository interfaces.
+2019-07-01 12:20:58,200 INFO  [main] org.springframework.boot.web.embedded.netty.NettyWebServer : Netty started on port(s): 8080
+2019-07-01 12:20:58,205 INFO  [main] com.lucainnocenti.agitado.AgitadoApplication : Started AgitadoApplication in 2.322 seconds (JVM running for 3.272)
+2019-07-01 12:20:58,208 ERROR [main] com.lucainnocenti.agitado.service.LoggerService : class com.lucainnocenti.agitado.service.LoggerService :: Error altra VIA!!!
+2019-07-01 12:29:51,625 INFO  [main] com.lucainnocenti.agitado.AgitadoApplication : Starting AgitadoApplication on LAPTOP-H9JGAA04 with PID 18568 (started by Luca Innocenti in C:\Users\Luca Innocenti\Documents\java\personal\agitado)
+2019-07-01 12:29:51,629 INFO  [main] com.lucainnocenti.agitado.AgitadoApplication : No active profile set, falling back to default profiles: default
+2019-07-01 12:29:52,065 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-01 12:29:52,079 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9ms. Found 0 repository interfaces.
+2019-07-01 12:29:52,633 INFO  [main] org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler : Initializing ExecutorService 'taskScheduler'
+2019-07-01 12:29:53,519 INFO  [main] org.springframework.boot.web.embedded.netty.NettyWebServer : Netty started on port(s): 8080
+2019-07-01 12:29:53,524 INFO  [main] com.lucainnocenti.agitado.AgitadoApplication : Started AgitadoApplication in 2.27 seconds (JVM running for 3.196)
+2019-07-01 12:29:53,528 ERROR [main] com.lucainnocenti.agitado.service.LoggerService : class com.lucainnocenti.agitado.service.LoggerService :: Error altra VIA!!!
