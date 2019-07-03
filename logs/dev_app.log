@@ -1,82 +1,99 @@
-2019-06-30 17:07:36,577 INFO  [main] com.lucainnocenti.agitado.AgitadoApplication : Starting AgitadoApplication on DESKTOP-BQRPE2F with PID 8376 (C:\Users\user\Documents\dev\java\agitado\target\classes started by user in C:\Users\user\Documents\dev\java\agitado)
-2019-06-30 17:07:36,582 INFO  [main] com.lucainnocenti.agitado.AgitadoApplication : No active profile set, falling back to default profiles: default
-2019-06-30 17:07:37,250 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-06-30 17:07:37,279 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17ms. Found 0 repository interfaces.
-2019-06-30 17:07:37,968 DEBUG [main] org.hibernate.validator.internal.engine.resolver.TraversableResolvers : Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
-2019-06-30 17:07:37,968 DEBUG [main] org.hibernate.validator.internal.engine.resolver.TraversableResolvers : Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
-2019-06-30 17:07:37,968 DEBUG [main] org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator : Loaded expression factory via original TCCL
-2019-06-30 17:07:37,970 DEBUG [main] org.hibernate.validator.internal.engine.resolver.TraversableResolvers : Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
-2019-06-30 17:07:37,970 DEBUG [main] org.hibernate.validator.internal.engine.resolver.TraversableResolvers : Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
-2019-06-30 17:07:37,971 DEBUG [main] org.hibernate.validator.internal.engine.ConfigurationImpl : Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
-2019-06-30 17:07:37,972 DEBUG [main] org.hibernate.validator.internal.engine.ConfigurationImpl : Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
-2019-06-30 17:07:37,972 DEBUG [main] org.hibernate.validator.internal.engine.ConfigurationImpl : Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
-2019-06-30 17:07:37,974 DEBUG [main] org.hibernate.validator.internal.xml.config.ValidationXmlParser : Trying to load META-INF/validation.xml for XML based Validator configuration.
-2019-06-30 17:07:37,974 DEBUG [main] org.hibernate.validator.internal.xml.config.ResourceLoaderHelper : Trying to load META-INF/validation.xml via user class loader
-2019-06-30 17:07:37,974 DEBUG [main] org.hibernate.validator.internal.xml.config.ResourceLoaderHelper : Trying to load META-INF/validation.xml via TCCL
-2019-06-30 17:07:37,974 DEBUG [main] org.hibernate.validator.internal.xml.config.ResourceLoaderHelper : Trying to load META-INF/validation.xml via Hibernate Validator's class loader
-2019-06-30 17:07:37,975 DEBUG [main] org.hibernate.validator.internal.xml.config.ValidationXmlParser : No META-INF/validation.xml found. Using annotation based configuration only.
-2019-06-30 17:07:37,982 DEBUG [main] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
-2019-06-30 17:07:37,983 DEBUG [main] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.engine.resolver.JPATraversableResolver as ValidatorFactory-scoped traversable resolver.
-2019-06-30 17:07:37,983 DEBUG [main] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
-2019-06-30 17:07:37,983 DEBUG [main] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
-2019-06-30 17:07:37,983 DEBUG [main] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
-2019-06-30 17:07:38,183 DEBUG [main] org.springframework.web.reactive.handler.SimpleUrlHandlerMapping : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
-2019-06-30 17:07:38,429 DEBUG [main] org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver : ControllerAdvice beans: none
-2019-06-30 17:07:38,471 DEBUG [main] org.springframework.web.server.adapter.HttpWebHandlerAdapter : enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
-2019-06-30 17:07:39,829 INFO  [main] org.springframework.boot.web.embedded.netty.NettyWebServer : Netty started on port(s): 8080
-2019-06-30 17:07:39,835 INFO  [main] com.lucainnocenti.agitado.AgitadoApplication : Started AgitadoApplication in 3.901 seconds (JVM running for 8.639)
-2019-06-30 17:07:59,626 ERROR [main] com.lucainnocenti.agitado.runner.AppRunner : Error VIA!!!
-2019-06-30 17:07:59,627 ERROR [main] com.lucainnocenti.agitado.service.LoggerService : class com.lucainnocenti.agitado.service.LoggerService :: Error altra VIA!!!
-2019-06-30 17:09:02,213 INFO  [main] com.lucainnocenti.agitado.AgitadoApplication : Starting AgitadoApplication on DESKTOP-BQRPE2F with PID 14452 (C:\Users\user\Documents\dev\java\agitado\target\classes started by user in C:\Users\user\Documents\dev\java\agitado)
-2019-06-30 17:09:02,217 INFO  [main] com.lucainnocenti.agitado.AgitadoApplication : No active profile set, falling back to default profiles: default
-2019-06-30 17:09:02,903 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-06-30 17:09:02,929 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15ms. Found 0 repository interfaces.
-2019-06-30 17:09:05,444 INFO  [main] org.springframework.boot.web.embedded.netty.NettyWebServer : Netty started on port(s): 8080
-2019-06-30 17:09:05,449 INFO  [main] com.lucainnocenti.agitado.AgitadoApplication : Started AgitadoApplication in 3.889 seconds (JVM running for 8.459)
-2019-06-30 17:10:19,657 ERROR [main] com.lucainnocenti.agitado.runner.AppRunner : Error VIA!!!
-2019-06-30 17:10:19,658 ERROR [main] com.lucainnocenti.agitado.service.LoggerService : class com.lucainnocenti.agitado.service.LoggerService :: Error altra VIA!!!
-2019-06-30 17:14:00,203 INFO  [main] com.lucainnocenti.agitado.AgitadoApplication : Starting AgitadoApplication on DESKTOP-BQRPE2F with PID 8900 (C:\Users\user\Documents\dev\java\agitado\target\classes started by user in C:\Users\user\Documents\dev\java\agitado)
-2019-06-30 17:14:00,207 INFO  [main] com.lucainnocenti.agitado.AgitadoApplication : No active profile set, falling back to default profiles: default
-2019-06-30 17:14:00,845 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-06-30 17:14:00,871 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
-2019-06-30 17:14:03,251 INFO  [main] org.springframework.boot.web.embedded.netty.NettyWebServer : Netty started on port(s): 8080
-2019-06-30 17:14:03,257 INFO  [main] com.lucainnocenti.agitado.AgitadoApplication : Started AgitadoApplication in 3.73 seconds (JVM running for 8.225)
-2019-06-30 17:14:15,774 ERROR [main] com.lucainnocenti.agitado.runner.AppRunner : Error VIA!!!
-2019-06-30 17:14:15,776 ERROR [main] com.lucainnocenti.agitado.service.LoggerService : class com.lucainnocenti.agitado.service.LoggerService :: Error altra VIA!!!
-2019-06-30 17:16:34,435 INFO  [main] com.lucainnocenti.agitado.AgitadoApplication : Starting AgitadoApplication on DESKTOP-BQRPE2F with PID 14108 (C:\Users\user\Documents\dev\java\agitado\target\classes started by user in C:\Users\user\Documents\dev\java\agitado)
-2019-06-30 17:16:34,440 INFO  [main] com.lucainnocenti.agitado.AgitadoApplication : No active profile set, falling back to default profiles: default
-2019-06-30 17:16:35,029 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-06-30 17:16:35,053 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14ms. Found 0 repository interfaces.
-2019-06-30 17:16:37,746 INFO  [main] org.springframework.boot.web.embedded.netty.NettyWebServer : Netty started on port(s): 8080
-2019-06-30 17:16:37,751 INFO  [main] com.lucainnocenti.agitado.AgitadoApplication : Started AgitadoApplication in 3.77 seconds (JVM running for 7.409)
-2019-06-30 17:16:37,754 ERROR [main] com.lucainnocenti.agitado.runner.AppRunner : Error VIA!!!
-2019-06-30 17:16:37,755 ERROR [main] com.lucainnocenti.agitado.service.LoggerService : class com.lucainnocenti.agitado.service.LoggerService :: Error altra VIA!!!
-2019-06-30 17:33:46,566 INFO  [main] com.lucainnocenti.agitado.AgitadoApplication : Starting AgitadoApplication on DESKTOP-BQRPE2F with PID 4416 (C:\Users\user\Documents\dev\java\agitado\target\classes started by user in C:\Users\user\Documents\dev\java\agitado)
-2019-06-30 17:33:46,569 INFO  [main] com.lucainnocenti.agitado.AgitadoApplication : No active profile set, falling back to default profiles: default
-2019-06-30 17:33:47,157 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-06-30 17:33:47,184 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
-2019-06-30 17:33:49,675 INFO  [main] org.springframework.boot.web.embedded.netty.NettyWebServer : Netty started on port(s): 8080
-2019-06-30 17:33:49,681 INFO  [main] com.lucainnocenti.agitado.AgitadoApplication : Started AgitadoApplication in 3.641 seconds (JVM running for 10.726)
-2019-06-30 17:33:49,685 ERROR [main] com.lucainnocenti.agitado.service.LoggerService : class com.lucainnocenti.agitado.service.LoggerService :: Error altra VIA!!!
-2019-07-01 11:51:09,381 INFO  [main] com.lucainnocenti.agitado.AgitadoApplication : Starting AgitadoApplication on LAPTOP-H9JGAA04 with PID 4828 (started by Luca Innocenti in C:\Users\Luca Innocenti\Documents\java\personal\agitado)
-2019-07-01 11:51:09,387 INFO  [main] com.lucainnocenti.agitado.AgitadoApplication : No active profile set, falling back to default profiles: default
-2019-07-01 11:51:10,047 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-07-01 11:51:10,073 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13ms. Found 0 repository interfaces.
-2019-07-01 11:51:12,142 INFO  [main] org.springframework.boot.web.embedded.netty.NettyWebServer : Netty started on port(s): 8080
-2019-07-01 11:51:12,147 INFO  [main] com.lucainnocenti.agitado.AgitadoApplication : Started AgitadoApplication in 3.447 seconds (JVM running for 6.148)
-2019-07-01 11:51:12,150 ERROR [main] com.lucainnocenti.agitado.service.LoggerService : class com.lucainnocenti.agitado.service.LoggerService :: Error altra VIA!!!
-2019-07-01 12:20:56,258 INFO  [main] com.lucainnocenti.agitado.AgitadoApplication : Starting AgitadoApplication on LAPTOP-H9JGAA04 with PID 284 (started by Luca Innocenti in C:\Users\Luca Innocenti\Documents\java\personal\agitado)
-2019-07-01 12:20:56,261 INFO  [main] com.lucainnocenti.agitado.AgitadoApplication : No active profile set, falling back to default profiles: default
-2019-07-01 12:20:56,726 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-07-01 12:20:56,742 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9ms. Found 0 repository interfaces.
-2019-07-01 12:20:58,200 INFO  [main] org.springframework.boot.web.embedded.netty.NettyWebServer : Netty started on port(s): 8080
-2019-07-01 12:20:58,205 INFO  [main] com.lucainnocenti.agitado.AgitadoApplication : Started AgitadoApplication in 2.322 seconds (JVM running for 3.272)
-2019-07-01 12:20:58,208 ERROR [main] com.lucainnocenti.agitado.service.LoggerService : class com.lucainnocenti.agitado.service.LoggerService :: Error altra VIA!!!
-2019-07-01 12:29:51,625 INFO  [main] com.lucainnocenti.agitado.AgitadoApplication : Starting AgitadoApplication on LAPTOP-H9JGAA04 with PID 18568 (started by Luca Innocenti in C:\Users\Luca Innocenti\Documents\java\personal\agitado)
-2019-07-01 12:29:51,629 INFO  [main] com.lucainnocenti.agitado.AgitadoApplication : No active profile set, falling back to default profiles: default
-2019-07-01 12:29:52,065 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-07-01 12:29:52,079 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9ms. Found 0 repository interfaces.
-2019-07-01 12:29:52,633 INFO  [main] org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler : Initializing ExecutorService 'taskScheduler'
-2019-07-01 12:29:53,519 INFO  [main] org.springframework.boot.web.embedded.netty.NettyWebServer : Netty started on port(s): 8080
-2019-07-01 12:29:53,524 INFO  [main] com.lucainnocenti.agitado.AgitadoApplication : Started AgitadoApplication in 2.27 seconds (JVM running for 3.196)
-2019-07-01 12:29:53,528 ERROR [main] com.lucainnocenti.agitado.service.LoggerService : class com.lucainnocenti.agitado.service.LoggerService :: Error altra VIA!!!
+2019-07-04 01:23:10,901 INFO  [main] com.lucainnocenti.agitado.AgitadoApplication : Starting AgitadoApplication on DESKTOP-BQRPE2F with PID 16044 (C:\Users\user\Documents\dev\java\agitado\target\classes started by user in C:\Users\user\Documents\dev\java\agitado)
+2019-07-04 01:23:10,941 INFO  [main] com.lucainnocenti.agitado.AgitadoApplication : No active profile set, falling back to default profiles: default
+2019-07-04 01:23:11,647 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-04 01:23:11,676 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+2019-07-04 01:23:11,679 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-04 01:23:11,868 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 188ms. Found 1 repository interfaces.
+2019-07-04 01:23:13,128 ERROR [main] com.zaxxer.hikari.HikariConfig : HikariPool-1 - dataSource or dataSourceClassName or jdbcUrl is required.
+2019-07-04 01:23:13,130 WARN  [main] org.springframework.boot.web.reactive.context.AnnotationConfigReactiveWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mysqlEntityManager' defined in class path resource [com/lucainnocenti/agitado/datasource/Agidata.class]: Unsatisfied dependency expressed through method 'mysqlEntityManagerFactory' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'entityManagerFactoryBuilder' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Unsatisfied dependency expressed through method 'entityManagerFactoryBuilder' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jpaVendorAdapter' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.orm.jpa.JpaVendorAdapter]: Factory method 'jpaVendorAdapter' threw exception; nested exception is java.lang.IllegalArgumentException: dataSource or dataSourceClassName or jdbcUrl is required.
+2019-07-04 01:23:13,181 INFO  [main] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-07-04 01:23:13,193 ERROR [main] org.springframework.boot.SpringApplication : Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mysqlEntityManager' defined in class path resource [com/lucainnocenti/agitado/datasource/Agidata.class]: Unsatisfied dependency expressed through method 'mysqlEntityManagerFactory' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'entityManagerFactoryBuilder' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Unsatisfied dependency expressed through method 'entityManagerFactoryBuilder' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jpaVendorAdapter' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.orm.jpa.JpaVendorAdapter]: Factory method 'jpaVendorAdapter' threw exception; nested exception is java.lang.IllegalArgumentException: dataSource or dataSourceClassName or jdbcUrl is required.
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:769)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1105)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.reactive.context.ReactiveWebServerApplicationContext.refresh(ReactiveWebServerApplicationContext.java:66)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:742)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:389)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1213)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1202)
+	at com.lucainnocenti.agitado.AgitadoApplication.main(AgitadoApplication.java:15)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.boot.maven.AbstractRunMojo$LaunchRunner.run(AbstractRunMojo.java:542)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'entityManagerFactoryBuilder' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Unsatisfied dependency expressed through method 'entityManagerFactoryBuilder' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jpaVendorAdapter' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.orm.jpa.JpaVendorAdapter]: Factory method 'jpaVendorAdapter' threw exception; nested exception is java.lang.IllegalArgumentException: dataSource or dataSourceClassName or jdbcUrl is required.
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:769)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1251)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1171)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:857)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:760)
+	... 25 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jpaVendorAdapter' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.orm.jpa.JpaVendorAdapter]: Factory method 'jpaVendorAdapter' threw exception; nested exception is java.lang.IllegalArgumentException: dataSource or dataSourceClassName or jdbcUrl is required.
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:627)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:456)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1251)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1171)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:857)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:760)
+	... 39 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.orm.jpa.JpaVendorAdapter]: Factory method 'jpaVendorAdapter' threw exception; nested exception is java.lang.IllegalArgumentException: dataSource or dataSourceClassName or jdbcUrl is required.
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:622)
+	... 53 common frames omitted
+Caused by: java.lang.IllegalArgumentException: dataSource or dataSourceClassName or jdbcUrl is required.
+	at com.zaxxer.hikari.HikariConfig.validate(HikariConfig.java:955)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:109)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:157)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:115)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:78)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:319)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:356)
+	at org.springframework.boot.autoconfigure.orm.jpa.DatabaseLookup.getDatabase(DatabaseLookup.java:73)
+	at org.springframework.boot.autoconfigure.orm.jpa.JpaProperties.determineDatabase(JpaProperties.java:142)
+	at org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration.jpaVendorAdapter(JpaBaseConfiguration.java:112)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration$$EnhancerBySpringCGLIB$$e828a6fe.CGLIB$jpaVendorAdapter$9(<generated>)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration$$EnhancerBySpringCGLIB$$e828a6fe$$FastClassBySpringCGLIB$$6527229c.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration$$EnhancerBySpringCGLIB$$e828a6fe.jpaVendorAdapter(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 54 common frames omitted

@@ -1,4 +1,4 @@
-CREATE TABLE `agitado`.`temp_logs` (
+CREATE TABLE `agidata`.`temp_logs` (
   `idtemp_logs` BIGINT UNSIGNED NOT NULL AUTO_INCREMENT,
   `zone_id` INT NOT NULL,
   `zone_desc` VARCHAR(45) NOT NULL,

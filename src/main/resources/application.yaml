@@ -1,27 +1,42 @@
 spring:
-  spring:
-    banner:
-      location: banner.txt
-  datasource:
-    driverClassName: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/agitado
-    username: agitado
-    password: agitado
-  jpa:
-    hibernate.ddl-auto: update
-    generate-ddl: true
-    show-sql: true
-  http:
-    log-request-details: false
+    application:
+        name: com-innocenti-agitado
+
+    spring:
+        banner:
+            location: banner.txt
+
+    agidata:
+        datasource:
+            jdbc-url: "jdbc:mysql://127.0.0.1:3306/agidata?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC&tinyInt1isBit=false&useSSL=false"
+            driver-class-name: com.mysql.cj.jdbc.Driver
+            username: agitado
+            password: agitado
+        hibernate:
+            hbm2ddl:
+                auto: validate
+    jpa:
+        generate-ddl: false
+        hibernate:
+            ddl-auto: none
+        show-sql: false
+        properties:
+            hibernate:
+                format_sql: false
+                dialect: org.hibernate.dialect.MySQL57Dialect
+
+
+    http:
+        log-request-details: false
 
 logging:
-  file: logs/dev_app.log
-  pattern:
-    console: "%d %-5level %logger : %msg%n"
-    file: "%d %-5level [%thread] %logger : %msg%n"
-  level:
-    root: INFO
-    org.springframework.web: INFO
-    guru.springframework.controllers: INFO
-    org.hibernate: INFO
+    file: logs/dev_app.log
+    pattern:
+        console: "%d %-5level %logger : %msg%n"
+        file: "%d %-5level [%thread] %logger : %msg%n"
+    level:
+        root: INFO
+        org.springframework.web: INFO
+        guru.springframework.controllers: INFO
+        org.hibernate: INFO
 
