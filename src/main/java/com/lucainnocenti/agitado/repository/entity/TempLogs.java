@@ -14,7 +14,7 @@ import java.time.ZonedDateTime;
 public class TempLogs {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long idtempLogs;
 
     private int zoneId;
