@@ -967,7 +967,7 @@ java.lang.IllegalStateException: Failed to execute CommandLineRunner
 	at org.springframework.boot.maven.AbstractRunMojo$LaunchRunner.run(AbstractRunMojo.java:542)
 	at java.base/java.lang.Thread.run(Thread.java:834)
 Caused by: java.lang.NullPointerException: null
-	at com.lucainnocenti.agitado.service.TempLogsService.storeTmpLogs(TempLogsService.java:16)
+	at com.lucainnocenti.agitado.service.TemperatureLogService.storeTmpLogs(TempLogsService.java:16)
 	at com.lucainnocenti.agitado.runner.AppRunner.run(AppRunner.java:38)
 	at com.lucainnocenti.agitado.AgitadoApplication.lambda$commandLineRunner$1(AgitadoApplication.java:34)
 	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:779)
@@ -1087,7 +1087,7 @@ select next_val as id_val from hibernate_sequence for update [42102-147]
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
 	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
 	at com.sun.proxy.$Proxy105.save(Unknown Source)
-	at com.lucainnocenti.agitado.service.TempLogsService.storeTmpLogs(TempLogsService.java:18)
+	at com.lucainnocenti.agitado.service.TemperatureLogService.storeTmpLogs(TempLogsService.java:18)
 	at com.lucainnocenti.agitado.runner.AppRunner.run(AppRunner.java:38)
 	at com.lucainnocenti.agitado.AgitadoApplication.lambda$commandLineRunner$1(AgitadoApplication.java:34)
 	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:779)
@@ -1138,7 +1138,7 @@ Caused by: org.springframework.dao.InvalidDataAccessResourceUsageException: erro
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
 	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
 	at com.sun.proxy.$Proxy105.save(Unknown Source)
-	at com.lucainnocenti.agitado.service.TempLogsService.storeTmpLogs(TempLogsService.java:18)
+	at com.lucainnocenti.agitado.service.TemperatureLogService.storeTmpLogs(TempLogsService.java:18)
 	at com.lucainnocenti.agitado.runner.AppRunner.run(AppRunner.java:38)
 	at com.lucainnocenti.agitado.AgitadoApplication.lambda$commandLineRunner$1(AgitadoApplication.java:34)
 	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:779)
@@ -1312,7 +1312,7 @@ select next_val as id_val from hibernate_sequence for update [42102-147]
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
 	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
 	at com.sun.proxy.$Proxy105.save(Unknown Source)
-	at com.lucainnocenti.agitado.service.TempLogsService.storeTmpLogs(TempLogsService.java:18)
+	at com.lucainnocenti.agitado.service.TemperatureLogService.storeTmpLogs(TempLogsService.java:18)
 	at com.lucainnocenti.agitado.runner.AppRunner.run(AppRunner.java:48)
 	at com.lucainnocenti.agitado.AgitadoApplication.lambda$commandLineRunner$1(AgitadoApplication.java:34)
 	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:779)
@@ -1406,7 +1406,7 @@ select next_val as id_val from hibernate_sequence for update [42102-147]
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
 	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
 	at com.sun.proxy.$Proxy105.save(Unknown Source)
-	at com.lucainnocenti.agitado.service.TempLogsService.storeTmpLogs(TempLogsService.java:18)
+	at com.lucainnocenti.agitado.service.TemperatureLogService.storeTmpLogs(TempLogsService.java:18)
 	at com.lucainnocenti.agitado.runner.AppRunner.run(AppRunner.java:48)
 	at com.lucainnocenti.agitado.AgitadoApplication.lambda$commandLineRunner$1(AgitadoApplication.java:34)
 	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:779)
@@ -1484,7 +1484,7 @@ Caused by: org.springframework.dao.InvalidDataAccessResourceUsageException: coul
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
 	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
 	at com.sun.proxy.$Proxy105.save(Unknown Source)
-	at com.lucainnocenti.agitado.service.TempLogsService.storeTmpLogs(TempLogsService.java:18)
+	at com.lucainnocenti.agitado.service.TemperatureLogService.storeTmpLogs(TempLogsService.java:18)
 	at com.lucainnocenti.agitado.runner.AppRunner.run(AppRunner.java:48)
 	at com.lucainnocenti.agitado.AgitadoApplication.lambda$commandLineRunner$1(AgitadoApplication.java:34)
 	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:779)
@@ -1875,7 +1875,7 @@ Caused by: org.springframework.transaction.CannotCreateTransactionException: Cou
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
 	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
 	at com.sun.proxy.$Proxy104.save(Unknown Source)
-	at com.lucainnocenti.agitado.service.TempLogsService.storeTmpLogs(TempLogsService.java:18)
+	at com.lucainnocenti.agitado.service.TemperatureLogService.storeTmpLogs(TempLogsService.java:18)
 	at com.lucainnocenti.agitado.runner.AppRunner.run(AppRunner.java:48)
 	at com.lucainnocenti.agitado.AgitadoApplication.lambda$commandLineRunner$1(AgitadoApplication.java:34)
 	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:779)
@@ -2059,7 +2059,7 @@ Caused by: org.springframework.dao.DataIntegrityViolationException: could not ex
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
 	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
 	at com.sun.proxy.$Proxy104.save(Unknown Source)
-	at com.lucainnocenti.agitado.service.TempLogsService.storeTmpLogs(TempLogsService.java:18)
+	at com.lucainnocenti.agitado.service.TemperatureLogService.storeTmpLogs(TempLogsService.java:18)
 	at com.lucainnocenti.agitado.runner.AppRunner.run(AppRunner.java:54)
 	at com.lucainnocenti.agitado.AgitadoApplication.lambda$commandLineRunner$1(AgitadoApplication.java:34)
 	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:779)
@@ -2176,7 +2176,7 @@ Caused by: org.springframework.dao.DataIntegrityViolationException: could not ex
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
 	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
 	at com.sun.proxy.$Proxy104.save(Unknown Source)
-	at com.lucainnocenti.agitado.service.TempLogsService.storeTmpLogs(TempLogsService.java:18)
+	at com.lucainnocenti.agitado.service.TemperatureLogService.storeTmpLogs(TempLogsService.java:18)
 	at com.lucainnocenti.agitado.runner.AppRunner.run(AppRunner.java:56)
 	at com.lucainnocenti.agitado.AgitadoApplication.lambda$commandLineRunner$1(AgitadoApplication.java:34)
 	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:779)
@@ -2260,3 +2260,20 @@ Caused by: java.sql.SQLIntegrityConstraintViolationException: Column 'event_date
 2019-07-08 20:58:15,689 INFO  [main] org.springframework.boot.web.embedded.netty.NettyWebServer : Netty started on port(s): 8080
 2019-07-08 20:58:15,694 INFO  [main] com.lucainnocenti.agitado.AgitadoApplication : Started AgitadoApplication in 6.15 seconds (JVM running for 15.207)
 2019-07-08 20:58:17,639 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-07-08 23:35:57,758 INFO  [main] com.lucainnocenti.agitado.AgitadoApplication : Starting AgitadoApplication on DESKTOP-BQRPE2F with PID 7192 (C:\Users\user\Documents\dev\java\agitado\target\classes started by user in C:\Users\user\Documents\dev\java\agitado)
+2019-07-08 23:35:57,761 INFO  [main] com.lucainnocenti.agitado.AgitadoApplication : No active profile set, falling back to default profiles: default
+2019-07-08 23:35:58,322 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-08 23:35:58,343 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8ms. Found 0 repository interfaces.
+2019-07-08 23:35:58,345 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-08 23:35:58,495 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 149ms. Found 1 repository interfaces.
+2019-07-08 23:35:59,721 INFO  [main] org.hibernate.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-07-08 23:35:59,804 INFO  [main] org.hibernate.Version : HHH000412: Hibernate Core {5.3.10.Final}
+2019-07-08 23:35:59,806 INFO  [main] org.hibernate.cfg.Environment : HHH000206: hibernate.properties not found
+2019-07-08 23:35:59,998 INFO  [main] org.hibernate.annotations.common.Version : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-07-08 23:36:00,628 INFO  [main] org.hibernate.dialect.Dialect : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2019-07-08 23:36:01,392 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-08 23:36:03,653 INFO  [main] org.springframework.boot.web.embedded.netty.NettyWebServer : Netty started on port(s): 8080
+2019-07-08 23:36:03,658 INFO  [main] com.lucainnocenti.agitado.AgitadoApplication : Started AgitadoApplication in 6.446 seconds (JVM running for 13.455)
+2019-07-08 23:36:05,877 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'

@@ -21,11 +21,11 @@ public class TempLogs {
     private String zoneDesc;
     ZonedDateTime eventDate;
     private String tempLogscol;
-    private boolean heating_active;
-    private int temperature;
-    private int umidity;
-    private int extTemperature;
-    private int ext_umidity;
+    private boolean heatingActive;
+    private double temperature;
+    private double umidity;
+    private double extTemperature;
+    private double extSolarIntensity;
 
 
 }

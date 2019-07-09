@@ -1,13 +1,13 @@
-CREATE TABLE `agidata`.`temp_logs` (
-  `idtemp_logs` BIGINT UNSIGNED NOT NULL AUTO_INCREMENT,
-  `zone_id` INT NOT NULL,
-  `zone_desc` VARCHAR(45) NOT NULL,
-  `event_date` DATETIME NOT NULL,
-  `temp_logscol` VARCHAR(45) NOT NULL,
-  `heating_active` TINYINT NOT NULL,
-  `temperature` INT NOT NULL,
-  `umidity` INT NOT NULL,
-  `ext_temperature` INT NOT NULL,
-  `ext_umidity` INT NOT NULL,
-  PRIMARY KEY (`idtemp_logs`))
-COMMENT = '\n-- temperature\n-- umidity\n-- ext-temperature\n-- ext-umidity';
+CREATE TABLE `temp_logs` (
+  `idtemp_logs` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+  `zone_id` int(11) NOT NULL,
+  `zone_desc` varchar(45) NOT NULL,
+  `event_date` datetime NOT NULL,
+  `temp_logscol` varchar(45) NOT NULL,
+  `heating_active` tinyint(4) NOT NULL,
+  `temperature` decimal(4,2) NOT NULL,
+  `umidity` decimal(4,2) NOT NULL,
+  `ext_temperature` decimal(4,2) NOT NULL,
+  `ext_solar_intensity` decimal(4,2) NOT NULL,
+  PRIMARY KEY (`idtemp_logs`)
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT='\n-- temperature\n-- umidity\n-- ext-temperature\n-- ext-umidity';

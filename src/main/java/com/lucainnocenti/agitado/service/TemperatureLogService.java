@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 
 @Service
 @RequiredArgsConstructor
-public class TempLogsService {
+public class TemperatureLogService {
 
     @Autowired
     private TempLogsRepository tempLogsRepository;
