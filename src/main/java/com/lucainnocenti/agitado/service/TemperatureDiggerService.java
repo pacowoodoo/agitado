@@ -31,7 +31,6 @@ public class TemperatureDiggerService {
 				TempLogs tempLogs = new TempLogs();
 				//tempLogs.set
 				TadoZones currentZone = TadoZones.valueOfId(zone.getId());
-				TadoZone
 				tempLogs.setZoneId(currentZone.getId());
 				tempLogs.setEventDate(ZonedDateTime.now());
 				tempLogs.setExtSolarIntensity(tadoWeather.getSolarIntensity().getPercentage());
