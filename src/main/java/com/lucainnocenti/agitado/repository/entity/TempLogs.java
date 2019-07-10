@@ -20,8 +20,9 @@ public class TempLogs {
     private int zoneId;
     private String zoneDesc;
     ZonedDateTime eventDate;
-    private String tempLogscol;
+    private double tempGoal;
     private boolean heatingActive;
+    private double heatingPercentage;
     private double temperature;
     private double umidity;
     private double extTemperature;

@@ -1,6 +1,6 @@
 package com.lucainnocenti.agitado.service;
 
-import com.lucainnocenti.agitado.enums.TadoZones;
+import com.lucainnocenti.agitado.enums.TadoZoneType;
 import com.lucainnocenti.agitado.repository.entity.TempLogs;
 import dev.bertolotti.tadojava.*;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -25,22 +25,44 @@ public class TemperatureDiggerService {
 			System.out.println(home.toString());
 			System.out.println(home.getState(connector));
 			TadoWeather tadoWeather = home.getWeather(connector);
-			for (TadoZone zone : home.getZones(connector)) {
-				System.out.println(zone.toString());
-				System.out.println(zone.getCapabilities(connector));
-				TempLogs tempLogs = new TempLogs();
-				//tempLogs.set
-				TadoZones currentZone = TadoZones.valueOfId(zone.getId());
-				tempLogs.setZoneId(currentZone.getId());
-				tempLogs.setEventDate(ZonedDateTime.now());
-				tempLogs.setExtSolarIntensity(tadoWeather.getSolarIntensity().getPercentage());
-				tempLogs.setExtTemperature(tadoWeather.getOutsideTemperature().getCelsius());
-				tempLogs.setTemperature(25);
-				tempLogs.setHeatingActive(true);
-				tempLogs.setTempLogscol("boh");
-				tempLogs.setZoneDesc(currentZone.getName());
-				temperatureLogService.storeTmpLogs(tempLogs);
-			}
+			home.getZones(connector)
+				.stream()
+				.forEach( zone -> {
+					TempLogs tempLog = new TempLogs();
+					//tempLogs.set
+					TadoZoneType zoneType = TadoZoneType.valueOfId(zone.getId());
+					try {
+						zone.getState(connector).getSensorDataPoints().stream().forEach(
+							datapoint -> {
+								if(datapoint.getName().equals("humidity")){
+									tempLog.setUmidity((double)datapoint.getDatapoint().get("percentage"));
+								}
+
+								if(datapoint.getName().equals("insideTemperature")){
+									tempLog.setTemperature((double)datapoint.getDatapoint().get("celsius"));
+								}
+							}
+						);
+						zone.getState(connector).getActivityDataPoints().forEach(
+							activityDataPoint -> {
+								if(activityDataPoint.getName().equals("heatingPower")){
+									tempLog.setHeatingPercentage((double)activityDataPoint.getDatapoint().get("percentage"));
+									tempLog.setHeatingActive(tempLog.getHeatingPercentage() > 0);
+								}
+							}
+						);
+						tempLog.setTempGoal(zone.getState(connector).getSetting().getTemperature().getCelsius());
+					} catch (TadoException e) {
+						e.printStackTrace();
+					}
+					tempLog.setZoneId(zoneType.getId());
+					tempLog.setEventDate(ZonedDateTime.now());
+					tempLog.setExtSolarIntensity(tadoWeather.getSolarIntensity().getPercentage());
+					tempLog.setExtTemperature(tadoWeather.getOutsideTemperature().getCelsius());
+
+					tempLog.setZoneDesc(zoneType.getName());
+					temperatureLogService.storeTmpLogs(tempLog);
+				});
 		}
 	}
 }
